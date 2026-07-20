@@ -60,7 +60,7 @@ project_01_weather/
 Clone the repository
 
 ```bash
-git git clone https://github.com/IngDavidHoyosGil/MyPortfolio.git
+git clone https://github.com/IngDavidHoyosGil/MyPortfolio.git
 ```
 
 Create a virtual environment
