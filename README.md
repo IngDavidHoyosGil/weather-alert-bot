@@ -60,7 +60,7 @@ project_01_weather/
 Clone the repository
 
 ```bash
-git clone git@github.com:IngDavidHoyosGil/weather-alert-bot.git
+git clone https://github.com/IngDavidHoyosGil/weather-alert-bot.git
 ```
 
 Create a virtual environment
