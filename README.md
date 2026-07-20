@@ -112,11 +112,15 @@ python -m src.main
 
 ### Rain expected
 
-![WhatsApp notification](images/whatsapp_message.jpg)
+<p align="center">
+  <img src="images/whatsapp_message.jpg" width="320">
+</p>
 
 ### No rain expected
 
-![Terminal response](images/terminal_no_rain.png)
+<p align="center">
+    <img src="images/terminal_no_rain.png" width="700">
+</p>
 
 ## Future Improvements
 
