@@ -122,6 +122,19 @@ python -m src.main
     <img src="images/terminal_no_rain.png" width="700">
 </p>
 
+## Notes
+
+This project uses the Twilio WhatsApp Sandbox.
+
+Before running the application:
+
+1. Open the Twilio Console.
+2. Navigate to **Messaging → Try it out → Send a WhatsApp message**.
+3. Follow the instructions to join the sandbox by sending the provided code from your WhatsApp account.
+4. Once joined, run the application normally.
+
+If the sandbox session expires, repeat the join process.
+
 ## Future Improvements
 
 - Docker support
@@ -130,6 +143,7 @@ python -m src.main
 - Deploy on AWS EC2
 - Schedule execution with cron
 - Support multiple cities
+- Replace the Twilio Sandbox with a production WhatsApp Business sender
 
 ## Roadmap
 
