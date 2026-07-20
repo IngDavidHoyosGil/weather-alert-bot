@@ -7,11 +7,15 @@ A Python application that retrieves hourly weather forecasts from WeatherAPI and
 ## Workflow
 
 ```mermaid
-graph LR
-    A[WeatherAPI] --> B[Python Application]
-    B --> C[Process Forecast]
-    C --> D[Twilio]
-    D --> E[WhatsApp Notification]
+flowchart LR
+
+A["WeatherAPI"] --> B["weather.py"]
+B --> C["extract_forecast()"]
+C --> D["Pandas DataFrame"]
+D --> E["formatter.py"]
+E --> F["notifier.py"]
+F --> G["Twilio API"]
+G --> H["WhatsApp"]
 ```
 
 ## Features
@@ -56,7 +60,7 @@ project_01_weather/
 Clone the repository
 
 ```bash
-git clone https://github.com/IngDavidHoyosGil/MyPortfolio/Projects/project_01_weather.git
+git git clone https://github.com/IngDavidHoyosGil/MyPortfolio.git
 ```
 
 Create a virtual environment
